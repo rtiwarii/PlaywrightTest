@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"a504b7cd465dcc38e85d40a9d29d347e","name":"ClientAppPO.spec.js","statistic":{"failed":0,"broken":0,"skipped":0,"passed":4,"unknown":0,"total":4}},{"uid":"d84e40ad7b162d29ab85e68581bb5a12","name":"ClientAppOtherWays.spec.js","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

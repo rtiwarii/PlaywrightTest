@@ -1,0 +1,30 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test WebApiPart1.spec.js",
+    "Config1Chrome": "npx playwright test --grep @Web --config playwright.config1.js --project chrome",
+    "webTest": "npx playwright test --grep @Web --reporter=line,allure-playwright",
+    "createAllureReport": "allure generate ./allure-results --clean",
+    "openAllureReport": "allure open ./allure-report",
+    "CucumberRegression": "npx cucumber-js --parallel 2 --format html:cucumber-report.html --retry 1 --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@azure/identity": "^4.13.2",
+    "@azure/playwright": "^1.1.6",
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2",
+    "allure-playwright": "^3.11.0",
+    "exceljs": "^4.4.0",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.2.1"
+  }
+}

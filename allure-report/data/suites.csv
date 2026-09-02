@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4805","@Web Successful Login Test without browser instance","","Fri Aug 28 05:34:16 IST 2026","passed","Fri Aug 28 05:34:21 IST 2026","","ClientAppOtherWays.spec.js","",""
+"","6888","@Web Successful Login Test","","Fri Aug 28 05:34:43 IST 2026","passed","Fri Aug 28 05:34:50 IST 2026","","ClientAppPO.spec.js","",""
+"","7259","@Web Successful Login Test for iphone 13 pro","","Fri Aug 28 05:34:36 IST 2026","passed","Fri Aug 28 05:34:43 IST 2026","","ClientAppPO.spec.js","",""
+"","7274","@Web Successful Login Test for ADIDAS ORIGINAL","","Fri Aug 28 05:34:28 IST 2026","passed","Fri Aug 28 05:34:36 IST 2026","","ClientAppPO.spec.js","",""
+"","6842","@Web Successful Login Test for ZARA COAT 3","","Fri Aug 28 05:34:21 IST 2026","passed","Fri Aug 28 05:34:28 IST 2026","","ClientAppPO.spec.js","",""
