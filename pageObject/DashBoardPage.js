@@ -1,14 +1,6 @@
-import { Page } from "@playwright/test";
-import { Locator } from "@playwright/test";
+class DashBoardPage{
 
-export class DashBoardPage{
-
-    page: Page;
-    products: Locator;
-    productText: Locator;
-    cart: Locator;
-
-    constructor(page: Page){
+    constructor(page){
         this.page = page;
         this.products = page.locator("//div[@class='card-body']");
         this.productText = page.locator("//div[@class='card-body']//b");
@@ -16,7 +8,7 @@ export class DashBoardPage{
 
     }
 
-    async searchProductAddCart(prodName: String){
+    async searchProductAddCart(prodName){
 
         const allTitles = await this.productText.allTextContents();
         console.log(allTitles);   
