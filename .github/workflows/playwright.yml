@@ -15,8 +15,8 @@ jobs:
         node-version: lts/*
     - name: Install dependencies
       run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
+    # - name: Install Playwright Browsers
+    #   run: npx playwright install --with-deps
     - name: Azure Login
       uses: azure/login@v3
       with:
@@ -24,7 +24,7 @@ jobs:
     - name: Run Playwright tests
       env:
         PLAYWRIGHT_SERVICE_URL: ${{vars.PLAYWRIGHT_SERVICE_URL}}
-      run: npx playwright test UIBasicTest.spec.js --config=playwright.service.config.js --workers=1
+      run: npx playwright test ClientAppPO.spec.js --config=playwright.service.config.js --workers=1
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
